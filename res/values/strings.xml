@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, login2!</string>
+    <string name="app_name">login2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_login3">Login3</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_choosedonation">Choosedonation</string>
+    <string name="title_activity_act1">Act1</string>
+    <string name="title_activity_act2">Act2</string>
+    <string name="title_activity_act3">Act3</string>
+    <string name="title_activity_payment">Payment</string>
+    <string name="title_activity_donationpage">Donationpage</string>
+    <string name="title_activity_donatehome">Donatehome</string>
+    <string name="title_activity_act4">Act4</string>
+    <string name="title_activity_payment1">Payment1</string>
+    <string name="title_activity_creditcard">Creditcard</string>
+    <string name="title_activity_debitcard">Debitcard</string>
+    <string name="title_activity_netbanking1">Netbanking1</string>
+
+</resources>

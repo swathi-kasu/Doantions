@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Act4" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#B23C8C"
+        android:text="Donate"
+        android:textColor="#000000"
+        android:textSize="43dp"
+        android:textStyle="italic|bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="26dp"
+        android:text="Ashray Akruti runs a school for hearing impaired students. These students need hearing aids on a continuous basis. Hearing aids need to be replaced every few years and each child needs 2 hearing aids. The preferred type of hearing aid (behind the ear aid) costs upwards of Rs. 15,000."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#2C9847" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="Donation details"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp"
+        android:textStyle="bold|normal"
+        android:typeface="serif"
+        android:textColor="#ffffff" />
+</RelativeLayout>

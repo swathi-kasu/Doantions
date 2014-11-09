@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black"
+    tools:context=".Act2" >
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:background="#B23C8C"
+    android:text="Donate"
+    android:textColor="#000000"
+    android:textSize="43dp"
+    android:textStyle="italic|bold"
+    android:typeface="sans" />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/button1"
+    android:layout_alignParentLeft="true"
+    android:text="The Akanksha Foundation works to impact the lives of children from low-income communities, enabling them to maximize their potential and transform their lives. The organization addresses non-formal education through the Akanksha centre and formal education by initiating school reform through The School Project."
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#2C9847" />
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/textView3"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="38dp"
+    android:text="Donation details"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#ffffff"
+    android:textSize="30dp"
+    android:textStyle="bold|normal"
+    android:typeface="serif" />
+
+</RelativeLayout>

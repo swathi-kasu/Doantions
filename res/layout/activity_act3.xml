@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Act3" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#B23C8C"
+        android:text="Donate"
+        android:textColor="#000000"
+        android:textSize="43dp"
+        android:textStyle="italic|bold"
+        android:typeface="sans" />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="Donation details"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp"
+        android:textStyle="bold|normal"
+        android:typeface="serif"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="Dr Shroffâ€™s Charity Eye Hospital is today considered one of the best Eye /ENT care provider in North India.They are thankful to their donors in partnering their cause and giving sight/hearing to thousands of less privileged people. The retina is the layer of tissue in the back of the eye that is responsible for vision."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#EE3E09" />
+
+</RelativeLayout>

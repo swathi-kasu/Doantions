@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/light_sky_blue"
+    tools:context=".Payment" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:text="Enter Amount:"
+         android:textSize="20dp"
+        android:textStyle="bold|normal"
+        android:typeface="serif"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="24dp"
+        android:background="#B04395"
+        android:text="Proceed to pay"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:textStyle="italic|bold"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="21dp"
+        android:ems="10" />
+
+</RelativeLayout>

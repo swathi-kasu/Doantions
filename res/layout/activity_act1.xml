@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Act1" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#B23C8C"
+        android:text="Donate"
+        android:textColor="#000000"
+        android:textSize="43dp"
+        android:textStyle="italic|bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="28dp"
+        android:text="The children in this programme are different from the Disha Programme. They are selected through tournaments (football) or school meets (athletics/boxing). The child must be between 10-14 years at time of selection and normally is in the programme till s/he completes college (provided they continue to perform)"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#EE3E09" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="Donation details"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp"
+        android:textStyle="bold|normal"
+        android:typeface="serif"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
