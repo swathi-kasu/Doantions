@@ -23,7 +23,7 @@ public class Debitcard extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				Toast t1=Toast.makeText(getApplicationContext(), "Succesfully Paid",Toast.LENGTH_LONG);
+				Toast.makeText(Debitcard.this,"Successfully Paid", Toast.LENGTH_LONG).show();
 				Intent i1=new Intent(Debitcard.this,Choosedonation.class);
 				startActivity(i1);
 			}
