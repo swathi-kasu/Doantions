@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Creditcard"
+    tools:context=".Debitcard"
     android:background="#3D88C6" >
 
     <TextView
@@ -57,7 +57,8 @@
         android:layout_alignLeft="@+id/editText2"
         android:layout_below="@+id/editText2"
         android:layout_marginTop="14dp"
-        android:ems="10" />
+        android:ems="10"
+        android:hint="MM" />
 
     <EditText
         android:id="@+id/editText4"
@@ -66,7 +67,8 @@
         android:layout_alignBaseline="@+id/editText3"
         android:layout_alignBottom="@+id/editText3"
         android:layout_toRightOf="@+id/editText2"
-        android:ems="10" />
+        android:ems="10"
+        android:hint="YY" />
 
     <TextView
         android:id="@+id/textView3"
