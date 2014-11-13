@@ -5,18 +5,6 @@
     android:layout_height="match_parent"
     tools:context=".Login3" 
     android:background="@drawable/bg1">
-
-    <TextView
-        android:id="@+id/tv_un"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="10pt"
-        android:textColor="#FFFFFF"
-        android:layout_alignParentLeft="true"
-        android:layout_marginRight="9dip"
-        android:layout_marginTop="20dip"
-        android:layout_marginLeft="10dip"
-        android:text="User Name:"/>
     <EditText
         android:id="@+id/et_un"
         android:layout_width="150dip"
@@ -24,18 +12,6 @@
         android:background="@android:drawable/editbox_background"
         android:layout_toRightOf="@id/tv_un"
         android:layout_alignTop="@id/tv_un"/>
-     <TextView
-        android:id="@+id/tv_pw"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="10pt"
-        android:textColor="#FFFFFF"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@id/tv_un"
-        android:layout_marginRight="9dip"
-        android:layout_marginTop="15dip"
-        android:layout_marginLeft="10dip"
-        android:text="Password:"/>
     <EditText
         android:id="@+id/et_pw"
         android:layout_width="150dip"
@@ -46,15 +22,6 @@
         android:layout_below="@id/et_un"
         android:layout_marginLeft="17dip"
         android:password="true"        />
-    <Button
-        android:id="@+id/btn_login"
-        android:layout_width="100dip"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/et_pw"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="15dip"
-        android:layout_marginLeft="110dip"
-        android:text="Login" />
        
      <TextView
         android:id="@+id/tv_error"
@@ -68,5 +35,46 @@
         android:layout_marginLeft="15dip"
         android:textColor="#AA0000"
         android:text=""/>
+
+     <TextView
+         android:id="@+id/tv_un"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/tv_error"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="101dp"
+         android:text="User Name:"
+         android:textColor="#FFFFFF"
+         android:textSize="10pt" />
+
+     <TextView
+         android:id="@+id/tv_pw"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/tv_un"
+         android:layout_below="@+id/et_un"
+         android:layout_marginTop="24dp"
+         android:text="Password:"
+         android:textColor="#FFFFFF"
+         android:textSize="10pt" />
+
+     <Button
+         android:id="@+id/btn_login"
+         android:layout_width="100dip"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:text="Login" />
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/et_un"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="36dp"
+         android:textStyle="italic|bold"
+         android:text="Give-India Login Screen"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
