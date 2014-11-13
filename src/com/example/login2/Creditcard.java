@@ -23,7 +23,7 @@ public class Creditcard extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				Toast t1=Toast.makeText(getApplicationContext(), "Succesfully Paid",Toast.LENGTH_LONG);
+				Toast.makeText(Creditcard.this,"Successfully Paid", Toast.LENGTH_LONG).show();
 				Intent i1=new Intent(Creditcard.this,Choosedonation.class);
 				startActivity(i1);
 			}
