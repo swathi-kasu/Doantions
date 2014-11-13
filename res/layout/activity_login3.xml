@@ -5,23 +5,6 @@
     android:layout_height="match_parent"
     tools:context=".Login3" 
     android:background="@drawable/bg1">
-    <EditText
-        android:id="@+id/et_un"
-        android:layout_width="150dip"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/editbox_background"
-        android:layout_toRightOf="@id/tv_un"
-        android:layout_alignTop="@id/tv_un"/>
-    <EditText
-        android:id="@+id/et_pw"
-        android:layout_width="150dip"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/editbox_background"
-        android:layout_toRightOf="@id/tv_pw"
-        android:layout_alignTop="@id/tv_pw"
-        android:layout_below="@id/et_un"
-        android:layout_marginLeft="17dip"
-        android:password="true"        />
        
      <TextView
         android:id="@+id/tv_error"
@@ -58,14 +41,6 @@
          android:textColor="#FFFFFF"
          android:textSize="10pt" />
 
-     <Button
-         android:id="@+id/btn_login"
-         android:layout_width="100dip"
-         android:layout_height="wrap_content"
-         android:layout_centerHorizontal="true"
-         android:layout_centerVertical="true"
-         android:text="Login" />
-
      <TextView
          android:id="@+id/textView1"
          android:layout_width="wrap_content"
@@ -76,5 +51,37 @@
          android:textStyle="italic|bold"
          android:text="Give-India Login Screen"
          android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <Button
+         android:id="@+id/btn_login"
+         android:layout_width="100dip"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/textView1"
+         android:layout_below="@+id/et_pw"
+         android:layout_marginLeft="52dp"
+         android:layout_marginTop="54dp"
+         android:text="Login" />
+
+     <EditText
+         android:id="@+id/et_pw"
+         android:layout_width="150dip"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/et_un"
+         android:layout_alignTop="@+id/tv_pw"
+         android:background="@android:drawable/editbox_background"
+         android:ems="10"
+         android:password="true" />
+
+     <EditText
+         android:id="@+id/et_un"
+         android:layout_width="150dip"
+         android:layout_height="wrap_content"
+         android:layout_alignTop="@+id/tv_un"
+         android:layout_toRightOf="@+id/tv_un"
+         android:background="@android:drawable/editbox_background"
+         android:ems="10" >
+
+         <requestFocus />
+     </EditText>
 
 </RelativeLayout>
